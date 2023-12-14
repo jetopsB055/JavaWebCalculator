@@ -7,11 +7,11 @@
   <version>0.1</version>
   <name>WebAppCal Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties>
-  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  <maven.compiler.source>1.8</maven.compiler.source>
-  <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
+  <plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>3.0.2</version>
+</plugin>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
